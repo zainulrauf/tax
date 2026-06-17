@@ -26,7 +26,7 @@ interface Questionnaire {
   incomeSources: string[];
   deductions: string[];
   helpPreference: string;
-  companyRevenue?: string;
+  companyRevenue?: boolean;
 }
 
 interface RecommendationResult {
@@ -671,7 +671,7 @@ export default function RecommendationPage() {
 
       {wizardConfig.companyRevenueOptions.map((opt) => (
         <SelectCard
-          key={opt.value}
+          key={String(opt.value)}
           title={opt.label}
           selected={
             form.companyRevenue ===
