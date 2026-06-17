@@ -1,0 +1,1 @@
+{"version":3,"file":"admin.module.js","sourceRoot":"","sources":["../../src/admin/admin.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AAExC,yDAAqD;AACrD,uEAAkE;AAClE,+EAA0E;AASnE,IAAM,WAAW,GAAjB,MAAM,WAAW;CAAG,CAAA;AAAd,kCAAW;sBAAX,WAAW;IAPvB,IAAA,eAAM,EAAC;QACN,WAAW,EAAE;YACX,kCAAe;YACf,+CAAqB;YACrB,uDAAyB;SAC1B;KACF,CAAC;GACW,WAAW,CAAG"}
