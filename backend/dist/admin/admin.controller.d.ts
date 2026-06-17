@@ -1,3 +1,3 @@
 export declare class AdminController {
-    getProductConfig(): {};
+    getProductConfig(): import("../products/interfaces/product.interface").Product[];
 }

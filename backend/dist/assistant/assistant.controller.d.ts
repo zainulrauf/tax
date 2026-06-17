@@ -6,14 +6,14 @@ export declare class AssistantController {
     ask(dto: AssistantQuestionDto): {
         answer: string;
         confidence: string;
-        reasons: {};
+        reasons: string[];
         disclaimer: string;
         recommendedProduct?: undefined;
     } | {
         answer: string;
         recommendedProduct: string;
         confidence: string;
-        reasons: {};
+        reasons: string[];
         disclaimer: string;
     };
 }
