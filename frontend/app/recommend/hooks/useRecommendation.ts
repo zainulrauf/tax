@@ -10,7 +10,7 @@ import { RecommendationService } from "@/services/recommendation.service";
 import {
   Questionnaire,
   RecommendationResult,
-} from "../types/recommendation.types";
+} from "../../../types/recommendation";
 
 const TOTAL_STEPS = 5;
 

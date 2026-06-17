@@ -5,7 +5,7 @@ import { Sparkles } from "lucide-react";
 
 import {
   RecommendationResult,
-} from "../types/recommendation.types";
+} from "../../../types/recommendation";
 
 interface Props {
   result: RecommendationResult;

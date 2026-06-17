@@ -7,7 +7,7 @@ import {
 
 import { CheckCircle2 } from "lucide-react";
 
-import { SelectCardProps } from "../types/recommendation.types";
+import { SelectCardProps } from "../../../types/recommendation";
 
 export default function SelectCard({
   title,

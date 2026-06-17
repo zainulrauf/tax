@@ -1,7 +1,7 @@
 "use client";
 
 import { Progress } from "@/components/ui/progress";
-import { SidebarProps } from "../types/recommendation.types";
+import { SidebarProps } from "../../../types/recommendation";
 
 export default function WizardSidebar({
   step,
